@@ -53,6 +53,7 @@ body {
     height: 5vh;
     border-radius: 8px;
     width: 53%;
+    font-size: 0.8vw;
 }
 
 .div-conteudo button:hover{
@@ -113,6 +114,8 @@ body {
     align-items: center;
     gap: 10%;
     margin-left: 8%;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 #div-h3{
@@ -162,6 +165,7 @@ body {
     width: 56%;
     margin-left: 8%;
     margin-top: 5%;
+    font-size: 0.8vw;
 }
 
 .div-btn-bloco2 button:hover{
@@ -226,6 +230,7 @@ body {
     width: 65%;
     margin-bottom: 5%;
     margin-top: 5%;
+    font-size: 0.8vw;
 }
 
 .div-btn-bloco3 button:hover{
@@ -237,6 +242,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 9%;
 }
 
 #div-footer2{
@@ -313,7 +319,7 @@ a{
         height: 3vh;
         border-radius: 8px;
         width: 75%;
-        font-size: 6px;
+        font-size: 1.5vw;
     }
 
     #primeiro-bloco{
@@ -427,7 +433,7 @@ a{
         border-radius: 8px;
         width: 45%;
         margin-left: 13%;
-        font-size: 6px;
+        font-size: 1.5vw;
     }
 
     #segmento2{
@@ -497,7 +503,7 @@ a{
         height: 3vh;
         border-radius: 8px;
         width: 90%;
-        font-size: 6px;
+        font-size: 1.5vw;
     }
 
     #div-footer1{
@@ -540,7 +546,11 @@ a{
     }
 
     #div-footer1 img{
-        width: 80%;
+        width: 20%;
+    }
+
+    #div-footer1 p{
+        font-size: 1.5vw;
     }
 
     #div-footer2 img{
@@ -548,7 +558,7 @@ a{
     }
 
     #div-footer-info-contato p{
-        font-size: 7px;
+        font-size: 1.5vw;
     }
   
 }
