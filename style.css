@@ -287,12 +287,13 @@ a{
     }
 
     #img-fundo{
+        width: 160%;
         position: absolute;
         top: 0;
         left: -50%;
         object-fit: cover;
         z-index: -1;
-        width: 180%;
+        height: 45vh;
     }
 
     .div-conteudo {
@@ -314,7 +315,7 @@ a{
         background-color: #23254D;
         color: white;
         border: 0px;
-        height: 3vh;
+        height: 4vh;
         border-radius: 8px;
         width: 60%;
         font-size: 5px;
