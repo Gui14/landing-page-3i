@@ -329,33 +329,49 @@ a{
     }
     
     #segmento1{
+        width: 87%;
+        height: 70vh;
+        padding: 6.5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    /* #segmento1{
         width: 20%;
         height: 85vh;
         padding: 6.5%;
         border: 1px solid;
-    }
+    } */
     
     #segmento1 h2{
-        font-size: 15px;
+        font-size: 20px;
         margin-bottom: 5%;
         margin-left: 8%;
     }
 
-    #div-titulo p{
-        font-size: 8px;
+    #div-titulo{
+        width: 80%;
     }
-    
-    
+
+    #div-titulo p{
+        font-size: 10px;
+    }
+
+    #segundo-bloco{
+        display: flex;
+        flex-direction: column;
+    }
+
     #div-segmento-img{
         display: flex;
         flex-direction: row;
-        width: 95%;
+        width: 80%;
         align-items: center;
-        height: 60vh; 
-        gap: 10%;
-        margin-left: 8%;
+        height: 45vh; 
+        gap: 5%;
     }
-    #div-segmento-img{
+    /* #div-segmento-img{
         display: flex;
         flex-direction: row;
         width: 92%;
@@ -363,13 +379,17 @@ a{
         height: 35vh; 
         gap: 5%;
         margin-left: 8%;
-    }
+    } */
     #div-h3{
         margin-left: 8%;
-        font-size: 13px;
+        font-size: 17px;
     }
+    /* #div-h3{
+        margin-left: 8%;
+        font-size: 13px;
+    } */
     .formatacao-div{
-        width: 100%;
+        width: 50%;
         gap: 80%;
         display: flex;
         flex-direction: column;
@@ -380,32 +400,51 @@ a{
     }
     
     .formatacao-div img{
+        width: 22%;
+    }
+    /* .formatacao-div img{
         width: 40%;
-    }
+    } */
     .formatacao-div p{
+        font-size: 10px;
+    }
+    /* .formatacao-div p{
         font-size: 6px;
-    }
+    } */
     .formatacao-div div{
-        height: 4vh;
-    }
-
-
-
-
-
-
-
-    #segmento1,
-    #segmento2 {
+        height: 5vh;
         width: 100%;
-        padding: 5%;
+    }
+    /* .formatacao-div div{
+        height: 4vh;
+    } */
+
+    .div-btn-bloco2 button{
+        background-color: #23254D;
+        color: white;
+        border: 0px;
+        height: 3vh;
+        border-radius: 8px;
+        width: 56%;
+        margin-left: 13%;
+        font-size: 8px;
     }
 
-    #segmento2 img {
-        width: 100%; 
+    #segmento2{
+        width: 87%;
+        height: 45vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
-
-    .div-footer-info-contato {
-        grid-template-columns: 1fr; 
+    
+    #segmento2 img{
+        width: 90%;
     }
+    #segmento2 div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+  
 }
