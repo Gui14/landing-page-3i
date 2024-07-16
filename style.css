@@ -336,7 +336,7 @@ a{
     }
     
     #segmento1 h2{
-        font-size: 12px;
+        font-size: 15px;
         margin-bottom: 5%;
         margin-left: 8%;
     }
@@ -366,7 +366,7 @@ a{
     }
     #div-h3{
         margin-left: 8%;
-        font-size: 10px;
+        font-size: 13px;
     }
     .formatacao-div{
         width: 100%;
@@ -380,10 +380,10 @@ a{
     }
     
     .formatacao-div img{
-        width: 35%;
+        width: 40%;
     }
     .formatacao-div p{
-        font-size: 4px;
+        font-size: 6px;
     }
     .formatacao-div div{
         height: 4vh;
