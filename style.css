@@ -1,0 +1,332 @@
+@font-face{
+    font-family: "Arboria";
+    src: url(/Fonte/Arboria-Book.ttf);
+}
+
+
+*{
+    margin: 0;
+   font-family: Arboria;
+}
+
+body {
+    font-family: Arboria;
+    height: 100vh;
+    margin: 0;
+}
+
+#primeiro-bloco{
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+}  
+
+.div-conteudo{
+    position: relative;
+    z-index: 1;
+    color: white;
+    height: 60vh;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    margin-left: 5%;
+}
+
+.div-conteudo h2{
+    font-size: 40px;
+}
+
+.div-conteudo p{
+    font-size: 22px;
+}
+
+.div-conteudo button{
+    background-color: #23254D;
+    color: white;
+    border: 0px;
+    height: 5vh;
+    border-radius: 8px;
+    width: 53%;
+}
+
+.div-conteudo button:hover{
+    background-color: white;
+    color: #23254D;
+}
+
+#div-logo{
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+#img-fundo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+#logo{
+    width: 30%;
+}
+
+.div-btn-bloco1{
+    width: 100%;
+    margin-top: 5%;
+}
+
+#segundo-bloco{
+    display: flex;
+    flex-direction: row;
+}
+
+#segmento1{
+    width: 50%;
+    height: 85vh;
+    padding: 6.5%;
+}
+
+#segmento1 p{
+    color: #666666;
+}
+#segmento2{
+    width: 50%;
+    height: 85vh;
+    padding: 6.5%;
+}
+
+#segmento2 img{
+    width: 115%;
+}
+
+
+#div-segmento-img{
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    align-items: center;
+    height: 60vh; 
+    gap: 10%;
+    margin-left: 8%;
+}
+
+#div-h3{
+    margin-left: 8%;
+}
+
+.formatacao-div{
+    width: 100%;
+    gap: 80%;
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formatacao-div div{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5%;
+}
+
+#segmento1 h2{
+    font-size: 35px;
+    margin-bottom: 5%;
+    margin-left: 8%;
+}
+
+#div-titulo p{
+    margin-bottom: 5%;
+    margin-left: 8%;
+}
+
+.div-btn-bloco2{
+    width: 100%;
+
+}
+
+.div-btn-bloco2 button{
+    background-color: #23254D;
+    color: white;
+    border: 0px;
+    height: 5vh;
+    border-radius: 8px;
+    width: 56%;
+    margin-left: 8%;
+}
+
+.div-btn-bloco2 button:hover{
+    background-color: #0c0e2e;
+    
+}
+
+#terceiro-bloco{
+    background-color: #23254D;
+    margin-top: 5%;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+}
+
+#div-bloco1{
+    width: 50%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#div-informacoes{
+    width: 72%;
+    color: white;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    margin-left: 8%;
+}
+
+#div-informacoes p{
+    font-size: 18px;
+}
+#div-informacoes ul{
+    font-size: 18px;
+}
+#div-bloco2{
+    width: 50%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+#div-bloco2 img{
+    width: 65%;
+}
+
+.div-btn-bloco3{
+    width: 64%;
+}
+
+.div-btn-bloco3 button{
+    background-color: #333CDF;
+    color: white;
+    border: 0px;
+    height: 5vh;
+    border-radius: 8px;
+    width: 65%;
+}
+
+.div-btn-bloco3 button:hover{
+    background-color: #0c0e2e;
+}
+
+#div-footer1{
+    width: 50%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#div-footer2{
+    width: 50%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 30vh;
+}
+
+#div-footer-info-contato{
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 10vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#div-footer-info-contato div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+/* Estilos para telas menores (móveis) */
+@media screen and (max-width: 768px) {
+    body, html{
+        overflow-x: hidden;   
+    }
+
+    #img-fundo{
+        width: 110%;
+    }
+
+    .div-conteudo {
+        width: 50%; 
+        height: 20vh;
+        border: 1px solid red;
+    }
+    .div-conteudo h2{
+        font-size: 15px;
+    }
+    .div-conteudo p{
+        font-size: 10px;
+    }
+
+    #logo{
+        width: 20%;
+    }
+
+    .div-conteudo button{
+        background-color: #23254D;
+        color: white;
+        border: 0px;
+        height: 2vh;
+        border-radius: 8px;
+        width: 53%;
+        font-size: 4px;
+    }
+
+    #segmento1,
+    #segmento2 {
+        width: 100%;
+        padding: 5%;
+    }
+
+    #segmento2 img {
+        width: 100%; 
+    }
+
+    .div-footer-info-contato {
+        grid-template-columns: 1fr; 
+    }
+}
