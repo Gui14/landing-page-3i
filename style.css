@@ -3,7 +3,6 @@
     src: url(./Fonte/Arboria-Book.ttf);
 }
 
-
 *{
     margin: 0;
    font-family: Arboria;
@@ -18,8 +17,11 @@ body {
 #primeiro-bloco{
     position: relative;
     width: 100%;
-    height: 80vh;
+    height: 100vh;
     overflow: hidden;
+    background-image: url(./imagens/BG1.svg);
+    background-size: 122%;
+    background-position: 100%;
 }  
 
 .div-conteudo{
@@ -88,7 +90,6 @@ body {
 
 #segmento1{
     width: 50%;
-    height: 85vh;
     padding: 6.5%;
 }
 
@@ -97,7 +98,6 @@ body {
 }
 #segmento2{
     width: 50%;
-    height: 85vh;
     padding: 6.5%;
 }
 
@@ -111,7 +111,6 @@ body {
     flex-direction: row;
     width: 95%;
     align-items: center;
-    height: 60vh; 
     gap: 10%;
     margin-left: 8%;
 }
@@ -162,6 +161,7 @@ body {
     border-radius: 8px;
     width: 56%;
     margin-left: 8%;
+    margin-top: 5%;
 }
 
 .div-btn-bloco2 button:hover{
@@ -172,14 +172,12 @@ body {
 #terceiro-bloco{
     background-color: #23254D;
     margin-top: 5%;
-    height: 90vh;
     display: flex;
     flex-direction: row;
 }
 
 #div-bloco1{
     width: 50%;
-    height: 90vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -189,13 +187,13 @@ body {
 #div-informacoes{
     width: 72%;
     color: white;
-    height: 70vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 10%;
     margin-left: 8%;
+    margin-top: 5%;
 }
 
 #div-informacoes p{
@@ -206,7 +204,6 @@ body {
 }
 #div-bloco2{
     width: 50%;
-    height: 90vh;
     display: flex;
     align-items: center;
     justify-content: right;
@@ -227,6 +224,8 @@ body {
     height: 5vh;
     border-radius: 8px;
     width: 65%;
+    margin-bottom: 5%;
+    margin-top: 5%;
 }
 
 .div-btn-bloco3 button:hover{
@@ -235,7 +234,6 @@ body {
 
 #div-footer1{
     width: 50%;
-    height: 30vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -243,7 +241,6 @@ body {
 
 #div-footer2{
     width: 50%;
-    height: 30vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -255,7 +252,6 @@ footer{
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 30vh;
 }
 
 #div-footer-info-contato{
