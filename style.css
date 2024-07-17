@@ -372,9 +372,11 @@ a{
     }  
     
     #segmento1{
-        width: 87%;
-        padding: 10%;
+        width: 100%;
+        padding: 0;
         display: flex;
+        justify-content: center;
+        align-items: center;
         flex-direction: column;
         justify-content: left;
         
@@ -393,7 +395,7 @@ a{
     }
 
     #div-titulo{
-        width: 60%;
+        width: 80%;
         display: flex;
         flex-direction: column;
         justify-content: right;
@@ -415,7 +417,7 @@ a{
     #div-segmento-img{
         display: flex;
         flex-direction: row;
-        width: 60%;
+        width: 77%;
         align-items: center;
         gap: 5%;
         margin: 0;
@@ -462,12 +464,16 @@ a{
         font-size: 6px;
     } */
     .formatacao-div div{
-        
+        height: 5vh;
         width: 100%;
     }
     /* .formatacao-div div{
         height: 4vh;
     } */
+
+    .div-btn-bloco2{
+        width: 80%;
+    }
 
     .div-btn-bloco2 button{
         background-color: #23254D;
@@ -475,22 +481,24 @@ a{
         border: 0px;
         height: 3vh;
         border-radius: 8px;
-        width: 45%;
+        width: 50%;
         margin: 0;
-        margin-top: 5%;
+        margin-top: 8%;
         font-size: 0.4rem;
     }
 
     #segmento2{
-        width: 87%;
+        width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
-        padding-top: 0;
+        padding: 0;
+        margin-top: 5%;
+        margin-bottom: 5%;
     }
     
     #segmento2 img{
-        width: 93%;
+        width: 75%;
     }
     #segmento2 div{
         display: flex;
