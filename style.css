@@ -524,6 +524,11 @@ a{
     #div-informacoes ul{
         font-size: 10px;
     }
+
+    #terceiro-bloco{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
     #div-bloco2{
         width: 40%;
         display: flex;
