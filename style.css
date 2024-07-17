@@ -516,7 +516,7 @@ a{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-image: url(/imagens/Modo_de_isolamento.svg);
+        background-image: url(./imagens/Modo_de_isolamento.svg);
         background-repeat: no-repeat;
         background-position: 100%;
         background-size: 50%;
