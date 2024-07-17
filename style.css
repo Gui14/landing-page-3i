@@ -22,13 +22,17 @@ body {
     background-image: url(./imagens/BG1.svg);
     background-size: 122%;
     background-position: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
 }  
 
 .div-conteudo{
     position: relative;
     z-index: 1;
     color: white;
-    height: 60vh;
+    height: auto;
     width: 40%;
     display: flex;
     flex-direction: column;
@@ -39,11 +43,12 @@ body {
 }
 
 .div-conteudo h2{
-    font-size: 40px;
+    font-size: 2.5rem;
 }
 
 .div-conteudo p{
-    font-size: 22px;
+    font-size: 1.5rem;
+    margin-top: 1rem;
 }
 
 .div-conteudo button{
@@ -53,7 +58,7 @@ body {
     height: 5vh;
     border-radius: 8px;
     width: 53%;
-    font-size: 0.8vw;
+    font-size: 0.8rem;
 }
 
 .div-conteudo button:hover{
@@ -120,6 +125,7 @@ body {
 
 #div-h3{
     margin-left: 8%;
+    font-size: 1.2rem;
 }
 
 .formatacao-div{
@@ -141,12 +147,13 @@ body {
 }
 
 #segmento1 h2{
-    font-size: 35px;
+    font-size: 1.8rem;
     margin-bottom: 5%;
     margin-left: 8%;
 }
 
 #div-titulo p{
+    font-size: 1rem;
     margin-bottom: 5%;
     margin-left: 8%;
 }
@@ -165,7 +172,7 @@ body {
     width: 56%;
     margin-left: 8%;
     margin-top: 5%;
-    font-size: 0.8vw;
+    font-size: 0.8rem;
 }
 
 .div-btn-bloco2 button:hover{
@@ -231,7 +238,7 @@ body {
     width: 65%;
     margin-bottom: 5%;
     margin-top: 5%;
-    font-size: 0.8vw;
+    font-size: 0.8rem;
 }
 
 .div-btn-bloco3 button:hover{
@@ -332,7 +339,7 @@ a{
 
     .div-conteudo {
         width: 50%; 
-        height: 45vh;
+        
     }
     .div-conteudo h2{
         font-size: 20px;
@@ -352,7 +359,7 @@ a{
         height: 3vh;
         border-radius: 8px;
         width: 75%;
-        font-size: 1.5vw;
+        font-size: 0.4rem;
     }
 
     #primeiro-bloco{
@@ -363,10 +370,6 @@ a{
         background-position: 0;
         background-repeat: no-repeat;
     }  
-
-    .div-btn-bloco1 button{
-        height: 3vh;
-    }
     
     #segmento1{
         width: 87%;
@@ -384,7 +387,7 @@ a{
     } */
     
     #segmento1 h2{
-        font-size: 20px;
+        font-size: 1.5rem;
         margin-bottom: 5%;
         margin: 0;
     }
@@ -398,7 +401,7 @@ a{
     }
 
     #div-titulo p{
-        font-size: 10px;
+        font-size: 0.7rem;
         margin: 0;
         margin-top: 5%;
         margin-bottom: 5%;
@@ -429,7 +432,7 @@ a{
     } */
     #div-h3{
         margin: 0;
-        font-size: 16px;
+        font-size: 1rem;
     }
     /* #div-h3{
         margin-left: 8%;
@@ -447,19 +450,19 @@ a{
     }
     
     .formatacao-div img{
-        width: 22%;
+        width: 30%;
     }
     /* .formatacao-div img{
         width: 40%;
     } */
     .formatacao-div p{
-        font-size: 10px;
+        font-size: 0.6rem;
     }
     /* .formatacao-div p{
         font-size: 6px;
     } */
     .formatacao-div div{
-        height: 5vh;
+        
         width: 100%;
     }
     /* .formatacao-div div{
@@ -475,7 +478,7 @@ a{
         width: 45%;
         margin: 0;
         margin-top: 5%;
-        font-size: 1.5vw;
+        font-size: 0.4rem;
     }
 
     #segmento2{
@@ -515,14 +518,14 @@ a{
     }
 
     #div-informacoes h1{
-        font-size: 17px;
+        font-size: 1rem;
     }
     
     #div-informacoes p{
-        font-size: 10px;
+        font-size: 0.6rem;
     }
     #div-informacoes ul{
-        font-size: 10px;
+        font-size: 0.6rem;
     }
 
     #terceiro-bloco{
@@ -551,7 +554,7 @@ a{
         height: 3vh;
         border-radius: 8px;
         width: 90%;
-        font-size: 1.5vw;
+        font-size: 0.35rem;
     }
 
     #div-footer1{
