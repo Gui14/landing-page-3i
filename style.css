@@ -338,18 +338,19 @@ a{
     }
 
     .div-conteudo {
-        width: 50%; 
-        
+        width: 80%; 
+        margin: 0;
+        padding: 0;
     }
     .div-conteudo h2{
         font-size: 20px;
     }
     .div-conteudo p{
-        font-size: 12px;
+        font-size: 0.7rem;
     }
 
     #logo{
-        width: 60%;
+        width: 40%;
     }
 
     .div-conteudo button{
@@ -358,7 +359,7 @@ a{
         border: 0px;
         height: 3vh;
         border-radius: 8px;
-        width: 80%;
+        width: 50%;
         font-size: 0.4rem;
     }
 
@@ -369,6 +370,9 @@ a{
         background-size: cover;
         background-position: 0;
         background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }  
     
     #segmento1{
@@ -618,6 +622,18 @@ a{
     #div-footer-info-contato p{
         font-size: 1.5vw;
     }
+
+    .div-row{
+        height: 3.5vh;
+    }
    
+    .div-row div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        width: 100%;
+        gap: 1px;
+    }
   
 }
