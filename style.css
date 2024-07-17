@@ -578,14 +578,13 @@ a{
     }
 
     #div-footer2 img{
-        width: 20%;
+        width: 14px;
+        height: 14px;
     }
 
     #div-footer-info-contato p{
         font-size: 1.5vw;
     }
-    #img-local{
-        width: 200%;
-    }
+   
   
 }
